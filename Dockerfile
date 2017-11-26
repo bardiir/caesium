@@ -11,9 +11,9 @@ RUN	buildDeps="git \
 	libjpeg-turbo-dev \
 	linux-headers \
 	cmake \
-	g++ \
 	sudo" && \
-	apk  add --no-cache --update ${buildDeps} && \
+	apk add --no-cache --update ${buildDeps} && \
+	apk add g++ && \
 	git clone https://github.com/Lymphatus/libcaesium.git && \
 	cd libcaesium && \
 	chmod +x install.sh && \
