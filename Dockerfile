@@ -5,6 +5,7 @@ RUN	buildDeps="git \
 	bash \
 	autoconf \
 	nasm \
+	g++ \
 	automake \
 	libtool \
 	libjpeg-turbo-dev \
@@ -12,7 +13,7 @@ RUN	buildDeps="git \
 	cmake \
 	sudo" && \
 	apk add --no-cache --update ${buildDeps} && \
-	apk add g++ gcc && \
+	apk add libstdc++ && \
 	git clone https://github.com/Lymphatus/libcaesium.git && \
 	cd libcaesium && \
 	chmod +x install.sh && \
