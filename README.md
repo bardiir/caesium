@@ -1,7 +1,7 @@
 # caesium
 CaesiumCLT (https://saerasoft.com/caesium/clt/) Packaged in a Docker container to use as an image compression step within a CI Pipeline
 
-[![](https://images.microbadger.com/badges/version/bardiir/caesium.svg)](https://microbadger.com/images/bardiir/caesium "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/bardiir/caesium.svg)](https://microbadger.com/images/bardiir/caesium "Get your own image badge on microbadger.com") [![GitHub last commit](https://img.shields.io/github/last-commit/bardiir/caesium.svg)]() [![Docker Automated build](https://img.shields.io/docker/automated/bardiir/caesium.svg)]() [![Docker Build Status](https://img.shields.io/docker/build/bardiir/caesium.svg)]()
+[![](https://images.microbadger.com/badges/version/bardiir/caesium.svg)](https://microbadger.com/images/bardiir/caesium "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/bardiir/caesium.svg)](https://microbadger.com/images/bardiir/caesium "Get your own image badge on microbadger.com") [![GitHub last commit](https://img.shields.io/github/last-commit/bardiir/caesium.svg)](https://github.com/bardiir/caesium) [![Docker Automated build](https://img.shields.io/docker/automated/bardiir/caesium.svg)](https://hub.docker.com/r/bardiir/caesium/builds/) [![Docker Build Status](https://img.shields.io/docker/build/bardiir/caesium.svg)](https://hub.docker.com/r/bardiir/caesium/builds/)
 
 
 ## Usage
