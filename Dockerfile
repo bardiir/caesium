@@ -3,7 +3,6 @@ FROM alpine
 RUN	buildDeps="git \
 	make \
 	bash \
-	gcc \
 	autoconf \
 	nasm \
 	automake \
@@ -13,7 +12,7 @@ RUN	buildDeps="git \
 	cmake \
 	sudo" && \
 	apk add --no-cache --update ${buildDeps} && \
-	apk add g++ && \
+	apk add g++ gcc && \
 	git clone https://github.com/Lymphatus/libcaesium.git && \
 	cd libcaesium && \
 	chmod +x install.sh && \
