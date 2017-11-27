@@ -22,5 +22,5 @@ $ caesiumclt -q 0 -o output image.jpg
 You can also do this in one go:
 
 ```
-$ docker run -ti -v /some/local/folder:/caesium bardiir/caesium caesiumclt -q 0 -o output image.jpg
+$ docker run -v /some/local/folder:/caesium bardiir/caesium caesiumclt -q 0 -o output image.jpg
 ```
