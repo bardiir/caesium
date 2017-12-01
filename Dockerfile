@@ -30,6 +30,7 @@ RUN	buildDeps="git \
 	cmake .. && \
 	make && \
 	sudo make install && \
+	rm -rf /libcaesium && \
 	apk del ${buildDeps} && \
 	rm -rf /var/cache/apk/*
 	
