@@ -17,9 +17,9 @@ RUN	buildDeps="git \
 	git clone https://github.com/google/zopfli.git && \
 	cd zopfli && \
 	make libzopflipng && \
-	cp libzopflipng.so.1.0.0 /usr/lib && \
-	ln -s libzopflipng.so.1.0.0 /usr/lib/libzopflipng.so && \
-	ln -s libzopflipng.so.1.0.0 /usr/lib/libzopflipng.so.1 && \
+	cp libzopflipng.so.1.0.2 /usr/lib && \
+	ln -s libzopflipng.so.1.0.2 /usr/lib/libzopflipng.so && \
+	ln -s libzopflipng.so.1.0.2 /usr/lib/libzopflipng.so.1 && \
 	mkdir /usr/include/zopflipng && \
 	cp src/zopflipng/zopflipng_lib.h /usr/include/zopflipng && \
 	cd .. && \
